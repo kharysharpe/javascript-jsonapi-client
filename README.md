@@ -3,11 +3,12 @@ Make this fully JSON:API compliant.
 
 - Pagination
 - Parse JSON:API responses
+- Get working seamlessly with (future) jsonapi-server
 - Any other issues discovered
 
-# Elegant and simple way to build requests for REST API
+# Elegant and simple way to build requests for JSON:API
 
-This package helps you quickly to build requests for REST API. Move your logic and backend requests to dedicated classes. Keep your code clean and elegant. 
+This package helps you quickly to build requests for JSON:API services. Move your logic and backend requests to dedicated classes. Keep your code clean and elegant. 
 
 
 # Basic usage
