@@ -1,7 +1,7 @@
 {
-  "name": "vue-api-query",
-  "version": "1.5.1",
-  "description": "💎 Elegant and simple way to build requests for REST API",
+  "name": "javascript-jsonapi-query",
+  "version": "0.0.1",
+  "description": "💎 Elegant and simple way to build requests for REST JSON:API",
   "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robsontenorio/vue-api-query.git"
+    "url": "git+https://github.com/kharysharpe/javascript-jsonapi-query.git"
   },
   "keywords": [
     "vue",
@@ -26,12 +26,12 @@
     "builder",
     "laravel"
   ],
-  "author": "Robson Tenório",
+  "author": "Khary Sharpe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/robsontenorio/vue-api-query/issues"
+    "url": "https://github.com/kharysharpe/javascript-jsonapi-query/issues"
   },
-  "homepage": "https://github.com/robsontenorio/vue-api-query#readme",
+  "homepage": "https://github.com/kharysharpe/javascript-jsonapi-query#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
