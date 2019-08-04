@@ -94,17 +94,17 @@ let posts = await user
 # Installation
 
 ```js
-yarn add vue-api-query
+yarn add javascript-jsonapi-client
 ```
 
 ## NUXT
 
-Create a plugin `~/plugins/vue-api-query.js`
+Create a plugin `~/plugins/javascript-jsonapi-client.js`
 
 ```js
 // inject global axios instance as http client to Model  
 
-import { Model } from 'vue-api-query'
+import { Model } from 'javascript-jsonapi-client'
 
 export default function (ctx, injext) {  
   Model.$http = ctx.$axios
@@ -115,7 +115,7 @@ And register it on `nuxt.config.js`
 
 ```js
 plugins: [
-  '~plugins/vue-api-query'
+  '~plugins/javascript-jsonapi-client'
 ]
 ```
 
@@ -128,7 +128,7 @@ Set up on `src/main.js`
 [...]
 
 import axios from 'axios'
-import { Model } from 'javascript-jsonapi-query'
+import { Model } from 'javascript-jsonapi-client'
 
 // inject global axios instance as http client to Model
 Model.$http = axios
@@ -140,12 +140,12 @@ Model.$http = axios
 
 ## Define a base model
 
-Your base model should extend from `vue-api-query` Model. Use base models is good practice in order to abstract configurations from your domain models.
+Your base model should extend from `javascript-jsonapi-client` Model. Use base models is good practice in order to abstract configurations from your domain models.
 
 **models/Model.js**
 
 ```js
-import { Model as BaseModel } from 'vue-api-query'
+import { Model as BaseModel } from 'javascript-jsonapi-client'
 
 export default class Model extends BaseModel {
 
@@ -559,7 +559,7 @@ let post = await Post
 
 # Custom params
 
-If you need to pass any extra param not provided by `vue-api-query` pattern, just use the `params()` method while querying:
+If you need to pass any extra param not provided by `javascript-jsonapi-client` pattern, just use the `params()` method while querying:
 
 ```js
 // GET /users?doSomething=yes&process=no
@@ -591,7 +591,7 @@ If you need to change default values just override `parametersName()` on your Ba
 **models/Model.js**
 
 ```js
-import { Model as BaseModel } from 'vue-api-query'
+import { Model as BaseModel } from 'javascript-jsonapi-client'
 
 export default class Model extends BaseModel {
 
