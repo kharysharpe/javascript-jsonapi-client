@@ -1,5 +1,5 @@
 {
-  "name": "javascript-jsonapi-query",
+  "name": "javascript-jsonapi-client",
   "version": "0.0.1",
   "description": "💎 Elegant and simple way to build requests for REST JSON:API",
   "main": "build/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kharysharpe/javascript-jsonapi-query.git"
+    "url": "git+https://github.com/kharysharpe/javascript-jsonapi-client.git"
   },
   "keywords": [
     "vue",
@@ -29,9 +29,9 @@
   "author": "Khary Sharpe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kharysharpe/javascript-jsonapi-query/issues"
+    "url": "https://github.com/kharysharpe/javascript-jsonapi-client/issues"
   },
-  "homepage": "https://github.com/kharysharpe/javascript-jsonapi-query#readme",
+  "homepage": "https://github.com/kharysharpe/javascript-jsonapi-client#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
